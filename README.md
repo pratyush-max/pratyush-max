@@ -237,10 +237,11 @@
 
   <br />
 
-  <!-- 11. GitHub Trophies -->
+  <!-- 11. GitHub Trophies (Temporarily commented out due to 402 Payment Required server outage on Vercel)
   <p align="center">
     <img src="https://github-profile-trophy.vercel.app/?username=pratyush-max&amp;theme=darkhub&amp;no-bg=false&amp;no-border=false&amp;margin-w=15&amp;margin-h=15&amp;column=7" alt="GitHub Trophies" width="835" style="max-width: 98%;" />
   </p>
+  -->
 
 </div>
 
