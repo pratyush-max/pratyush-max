@@ -221,7 +221,7 @@
 
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=pratyush-max&amp;show_icons=true&amp;theme=darkhub&amp;bg_color=0b0914&amp;title_color=8a2be2&amp;text_color=e0e0ff&amp;icon_color=00f7ff&amp;border_color=8a2be2" alt="GitHub Stats" width="410" style="max-width: 48%; margin: 5px;" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratyush-max&amp;layout=compact&amp;theme=darkhub&amp;bg_color=0b0914&amp;title_color=8a2be2&amp;text_color=e0e0ff&amp;icon_color=00f7ff&amp;border_color=8a2be2" alt="Top Languages" width="410" style="max-width: 48%; margin: 5px;" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pratyush-max&amp;layout=compact&amp;theme=darkhub&amp;bg_color=0b0914&amp;title_color=8a2be2&amp;text_color=e0e0ff&amp;icon_color=00f7ff&amp;border_color=8a2be2" alt="Top Languages" width="410" style="max-width: 48%; margin: 5px;" />
   </p>
 
   <p align="center">
@@ -266,12 +266,10 @@
 
   <details>
     <summary style="font-family: 'Courier New', monospace; color: #a5a5c5; cursor: pointer; font-size: 12px;">[ Config: GitHub Actions Snake Generator ]</summary>
-    <br />
-    <table width="850" align="center" style="font-family: 'Courier New', monospace; font-size: 12px; color: #e0e0ff; border: 1px solid rgba(138,43,226,0.3); background: #0b0914; border-collapse: collapse; text-align: left;">
-      <tr>
-        <td style="padding: 15px;">
-          <p style="color: #00F7FF; margin-top: 0;">Copy the configuration below and save it as <code>.github/workflows/generate-snake.yml</code> to run the automated snake grid generator:</p>
-          <pre style="background: #141124; padding: 15px; border-radius: 5px; border: 1px dashed rgba(138,43,226,0.4); color: #8A2BE2; overflow-x: auto;">
+    
+    <p style="color: #00F7FF; margin-top: 10px; font-family: 'Courier New', monospace; font-size: 12px;">Copy the configuration below and save it as <code>.github/workflows/generate-snake.yml</code> to run the automated snake grid generator:</p>
+
+```yaml
 name: Generate Snake Animation
 
 on:
@@ -280,7 +278,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   generate:
@@ -303,10 +301,8 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          </pre>
-        </td>
-      </tr>
-    </table>
+```
+
   </details>
 </div>
 

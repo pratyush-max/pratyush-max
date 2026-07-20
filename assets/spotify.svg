@@ -12,8 +12,8 @@
       </feMerge>
     </filter>
   </defs>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Share+Tech+Mono&amp;display=swap');
+  <style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Share+Tech+Mono&display=swap');
     .bg { fill: #0b0914; rx: 8px; stroke: #8A2BE2; stroke-opacity: 0.3; stroke-width: 1.5; }
     .title { font-family: 'Orbitron', 'Segoe UI', -apple-system, sans-serif; font-size: 14px; font-weight: bold; fill: #FFFFFF; letter-spacing: 2px; }
     .artist { font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 12px; fill: #00F7FF; letter-spacing: 1.5px; }
@@ -31,7 +31,7 @@
       50% { transform: scale(1.1); opacity: 1; }
     }
     .pulse-logo { transform-origin: 45px 60px; animation: pulse 2s infinite ease-in-out; }
-  </style>
+]]></style>
 
   <!-- Player Background -->
   <rect width="850" height="120" class="bg" />

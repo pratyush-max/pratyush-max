@@ -34,8 +34,8 @@
     </filter>
   </defs>
 
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&amp;family=Share+Tech+Mono&amp;display=swap');
+  <style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap');
     
     .bg { fill: url(#cyber-grid); }
     .glow-circle { fill: url(#glow); }
@@ -99,7 +99,7 @@
       stroke-width: 1.5;
       filter: url(#subtle-glow);
     }
-  </style>
+]]></style>
 
   <!-- Background -->
   <rect width="850" height="300" class="bg" />

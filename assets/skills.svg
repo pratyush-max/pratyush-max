@@ -16,8 +16,8 @@
       </feMerge>
     </filter>
   </defs>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Share+Tech+Mono&amp;display=swap');
+  <style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Share+Tech+Mono&display=swap');
     .bg { fill: #0b0914; rx: 10px; stroke: #8A2BE2; stroke-opacity: 0.3; stroke-width: 1.5; }
     .label { font-family: 'Share Tech Mono', monospace; font-size: 13px; fill: #E0E0FF; letter-spacing: 1.5px; }
     .value { font-family: 'Orbitron', 'Segoe UI', -apple-system, sans-serif; font-size: 12px; fill: #00F7FF; font-weight: bold; }
@@ -40,7 +40,7 @@
       50% { opacity: 1; }
     }
     .cursor { animation: blink 1s infinite; font-family: monospace; fill: #00F7FF; }
-  </style>
+]]></style>
 
   <!-- Panel Background -->
   <rect width="850" height="300" class="bg" />
