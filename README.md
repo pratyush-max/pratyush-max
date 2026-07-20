@@ -388,15 +388,7 @@ jobs:
 
 <!-- 15. Random Dev Quote -->
 <div align="center">
-  <table width="850" style="border: 1px dashed rgba(0, 247, 255, 0.3); background: rgba(8, 7, 16, 0.9); border-radius: 8px; border-collapse: collapse;">
-    <tr>
-      <td style="padding: 15px 30px; text-align: center; color: #a5a5c5; font-family: 'Courier New', monospace; font-size: 13px; font-style: italic;">
-        "Intelligence is not the ability to store information, but the capacity to construct neural mappings that adapt dynamically to environment changes."
-        <br />
-        <span style="color: #00F7FF; font-style: normal; font-size: 11px; font-weight: bold; letter-spacing: 1px;">- [ SYS.ADAPT_THEORY // AI_PRIME ]</span>
-      </td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/quote.svg?v=1" alt="AI Cognition Quote" width="850" style="max-width: 100%;" />
 </div>
 
 <br />

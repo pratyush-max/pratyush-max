@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="neon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F7FF" />
+      <stop offset="100%" stop-color="#8A2BE2" />
+    </linearGradient>
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <style><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+    .bg { fill: #0b0914; rx: 6px; stroke: url(#neon-grad); stroke-width: 1.2; stroke-opacity: 0.5; }
+    .quote { font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 12.5px; fill: #e0e0ff; text-anchor: middle; }
+    .author { font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 11px; fill: #00F7FF; text-anchor: middle; letter-spacing: 1.5px; }
+    .corner { stroke: #00F7FF; stroke-width: 1.5; fill: none; }
+    .decor { stroke: #8A2BE2; stroke-opacity: 0.2; stroke-width: 1; }
+  ]]></style>
+
+  <!-- Background -->
+  <rect width="850" height="100" class="bg" />
+
+  <!-- Corner Tech Highlights -->
+  <path d="M 12,8 L 4,8 L 4,16" class="corner" filter="url(#neon-glow)" />
+  <path d="M 838,8 L 846,8 L 846,16" class="corner" filter="url(#neon-glow)" />
+  <path d="M 4,84 L 4,92 L 12,92" class="corner" filter="url(#neon-glow)" />
+  <path d="M 846,84 L 846,92 L 838,92" class="corner" filter="url(#neon-glow)" />
+
+  <!-- Technical Grid elements -->
+  <line x1="20" y1="50" x2="60" y2="50" class="decor" />
+  <line x1="790" y1="50" x2="830" y2="50" class="decor" />
+  
+  <!-- Text Content -->
+  <text x="425" y="44" class="quote">
+    "Intelligence is not the ability to store information, but the capacity to construct neural mappings that adapt dynamically."
+  </text>
+  <text x="425" y="70" class="author">
+    - [ SYS.ADAPT_THEORY // AI_PRIME ]
+  </text>
+</svg>
