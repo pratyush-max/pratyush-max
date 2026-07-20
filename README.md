@@ -219,10 +219,12 @@
   <h3 style="font-family: 'Orbitron', sans-serif; color: #8A2BE2; letter-spacing: 3px;">📊 GITHUB_ANALYTICS // STATISTICS</h3>
   <br />
 
+  <!-- The two cards below are temporarily commented out because the public github-readme-stats server is down (503 Service Unavailable). You can uncomment them once the service is back online.
   <p align="center">
     <img src="https://github-readme-stats.vercel.app/api?username=pratyush-max&amp;show_icons=true&amp;theme=darkhub&amp;bg_color=0b0914&amp;title_color=8a2be2&amp;text_color=e0e0ff&amp;icon_color=00f7ff&amp;border_color=8a2be2" alt="GitHub Stats" width="410" style="max-width: 48%; margin: 5px;" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pratyush-max&amp;layout=compact&amp;theme=darkhub&amp;bg_color=0b0914&amp;title_color=8a2be2&amp;text_color=e0e0ff&amp;icon_color=00f7ff&amp;border_color=8a2be2" alt="Top Languages" width="410" style="max-width: 48%; margin: 5px;" />
   </p>
+  -->
 
   <p align="center">
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=pratyush-max&amp;background=0b0914&amp;ring=00f7ff&amp;fire=8a2be2&amp;currStreakNum=00f7ff&amp;currStreakLabel=e0e0ff&amp;sideNums=e0e0ff&amp;sideLabels=e0e0ff&amp;dates=a5a5c5&amp;border=8a2be2" alt="Streak Stats" width="835" style="max-width: 98%; border-radius: 5px;" />
