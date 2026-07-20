@@ -22,7 +22,7 @@
     
     @keyframes progress {
       0% { width: 0; }
-      100% { width: 420px; }
+      100% { width: 370px; }
     }
     .bar-fill { fill: url(#neon-grad); rx: 2px; animation: progress 30s linear infinite; filter: url(#neon-glow); }
     
@@ -57,12 +57,12 @@
     
     <!-- Playback progress bar -->
     <!-- Bar Container -->
-    <rect x="0" y="90" width="550" height="5" class="bar-bg" />
+    <rect x="0" y="90" width="480" height="5" class="bar-bg" />
     <!-- Progress Bar -->
     <rect x="0" y="90" width="0" height="5" class="bar-fill" />
     
     <!-- Progress stats -->
-    <text x="565" y="95" class="system" font-size="10">02:45 / 03:00</text>
+    <text x="495" y="95" class="system" font-size="10">02:45 / 03:00</text>
   </g>
 
   <!-- Equalizer Visualizer Bars -->

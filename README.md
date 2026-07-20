@@ -318,7 +318,7 @@ jobs:
   <h3 style="font-family: 'Orbitron', sans-serif; color: #8A2BE2; letter-spacing: 3px;">🎵 AUDIO_MATRIX // NOW_PLAYING</h3>
   <br />
   <a href="https://open.spotify.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/spotify.svg?v=1" alt="Spotify Player Mockup" width="850" style="max-width: 100%;" />
+    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/spotify.svg?v=2" alt="Spotify Player Mockup" width="850" style="max-width: 100%;" />
   </a>
 </div>
 
