@@ -389,7 +389,7 @@ jobs:
 
 <!-- 15. Random Dev Quote -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/quote.svg?v=1" alt="AI Cognition Quote" width="850" style="max-width: 100%;" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/quote.svg?v=2" alt="AI Cognition Quote" width="850" style="max-width: 100%;" />
 </div>
 
 <br />
