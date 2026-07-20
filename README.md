@@ -402,7 +402,7 @@ jobs:
   <tr>
     <td width="55%" align="center" style="padding-right: 15px;">
       <!-- Coding GIF -->
-      <img src="https://media.giphy.com/media/QAPyVp7vVLIQyV2P07/giphy.gif" alt="Futuristic AI Coding" width="100%" style="border-radius: 8px; border: 1px solid rgba(138, 43, 226, 0.3);" />
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/coding.gif?v=1" alt="Futuristic AI Coding" width="100%" style="border-radius: 8px; border: 1px solid rgba(138, 43, 226, 0.3);" />
     </td>
     <td width="45%" valign="middle" style="padding-left: 15px; font-family: 'Courier New', monospace; color: #e0e0ff;">
       <h3 style="font-family: 'Orbitron', sans-serif; color: #00F7FF; letter-spacing: 2px; margin-top: 0;">🔋 POWER_THE_CORE</h3>
