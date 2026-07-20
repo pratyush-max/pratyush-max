@@ -161,7 +161,7 @@
   <!-- Main Text Info -->
   <g transform="translate(280, 0)">
     <!-- Tiny system prefix -->
-    <text x="0" y="75" class="font-mono" fill="#00F7FF" font-size="12" letter-spacing="3" class="flicker-effect">
+    <text x="0" y="75" class="font-mono flicker-effect" fill="#00F7FF" font-size="12" letter-spacing="3">
       [ SYSTEM: INITIALIZING_ ]
     </text>
     
