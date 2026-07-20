@@ -14,7 +14,7 @@
 
   <!-- 2. Hero Banner -->
   <a href="https://github.com/pratyush-max">
-    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/banner.svg" alt="Pratyush Thakur Banner" width="850" style="max-width: 100%; border-radius: 8px;" />
+    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/banner.svg?v=1" alt="Pratyush Thakur Banner" width="850" style="max-width: 100%; border-radius: 8px;" />
   </a>
 
   <br /><br />
@@ -37,7 +37,7 @@
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -74,7 +74,7 @@
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -89,7 +89,7 @@
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -97,7 +97,7 @@
 <div align="center">
   <h3 style="font-family: 'Orbitron', sans-serif; color: #8A2BE2; letter-spacing: 3px;">📊 CORE_MATRIX // DIAGNOSTICS</h3>
   <br />
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/skills.svg" alt="Skills Diagnostics Dashboard" width="850" style="max-width: 100%;" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/skills.svg?v=1" alt="Skills Diagnostics Dashboard" width="850" style="max-width: 100%;" />
   
   <br />
   
@@ -131,7 +131,7 @@
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -142,25 +142,25 @@
 
   <p align="center">
     <a href="https://github.com/pratyush-max/surveillance-system">
-      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project1.svg" alt="Surveillance System" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project1.svg?v=1" alt="Surveillance System" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
     </a>
     <a href="https://github.com/pratyush-max/stock-forecasting">
-      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project2.svg" alt="Stock Forecasting" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project2.svg?v=1" alt="Stock Forecasting" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
     </a>
   </p>
   
   <p align="center">
     <a href="https://github.com/pratyush-max/ml-classification">
-      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project3.svg" alt="ML Classification" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project3.svg?v=1" alt="ML Classification" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
     </a>
     <a href="https://github.com/pratyush-max/clustering-analysis">
-      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project4.svg" alt="Clustering Analytics" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project4.svg?v=1" alt="Clustering Analytics" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
     </a>
   </p>
 
   <p align="center">
     <a href="https://github.com/pratyush-max/computer-vision-projects">
-      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project5.svg" alt="Computer Vision Projects" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project5.svg?v=1" alt="Computer Vision Projects" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
     </a>
   </p>
 
@@ -210,7 +210,7 @@
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -246,7 +246,7 @@
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -257,9 +257,9 @@
 
   <!-- Displaying Snake Animation -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pratyush-max/pratyush-max/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pratyush-max/pratyush-max/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="835" style="max-width: 98%;" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pratyush-max/pratyush-max/output/github-contribution-grid-snake-dark.svg?v=1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pratyush-max/pratyush-max/output/github-contribution-grid-snake.svg?v=1" />
+    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/output/github-contribution-grid-snake-dark.svg?v=1" alt="Contribution Snake" width="835" style="max-width: 98%;" />
   </picture>
 
   <br /><br />
@@ -297,7 +297,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&amp;color_snake=%2300F7FF&amp;color_dots=%23161b22,%230e4429,%23006d32,%2326a641,%2339d353
             
       - name: Push Snake SVG to Output Branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
@@ -312,7 +312,7 @@ jobs:
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -320,12 +320,12 @@ jobs:
 <div align="center">
   <h3 style="font-family: 'Orbitron', sans-serif; color: #8A2BE2; letter-spacing: 3px;">🎵 AUDIO_MATRIX // NOW_PLAYING</h3>
   <br />
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/spotify.svg" alt="Spotify Player Mockup" width="850" style="max-width: 100%;" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/spotify.svg?v=1" alt="Spotify Player Mockup" width="850" style="max-width: 100%;" />
 </div>
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -385,7 +385,7 @@ jobs:
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
@@ -404,7 +404,7 @@ jobs:
 
 <br />
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg" alt="Neon Divider" width="850" />
+  <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/divider.svg?v=1" alt="Neon Divider" width="850" />
 </div>
 <br />
 
