@@ -14,7 +14,7 @@
 
   <!-- 2. Hero Banner -->
   <a href="https://github.com/pratyush-max">
-    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/banner.svg?v=1" alt="Pratyush Thakur Banner" width="850" style="max-width: 100%; border-radius: 8px;" />
+    <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/banner.svg?v=2" alt="Pratyush Thakur Banner" width="850" style="max-width: 100%; border-radius: 8px;" />
   </a>
 
   <br /><br />
