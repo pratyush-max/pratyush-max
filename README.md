@@ -328,57 +328,56 @@ jobs:
 <br />
 
 <table align="center" width="850" style="border: none; border-collapse: collapse;">
-  <tr>
-    <!-- 13. Current Learning section -->
-    <td width="48%" valign="top" style="padding-right: 15px;">
-      <table width="100%" style="border: 1px solid rgba(138, 43, 226, 0.3); background: rgba(11, 9, 20, 0.85); border-radius: 8px; border-collapse: collapse;">
-        <tr>
-          <td style="padding: 20px; color: #e0e0ff; font-family: 'Courier New', monospace;">
-            <h4 style="font-family: 'Orbitron', sans-serif; color: #00F7FF; letter-spacing: 1.5px; margin-top: 0; margin-bottom: 15px;">🧠 CURRENT_LEARNING</h4>
-            <ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 13px;">
-              <li style="margin-bottom: 8px;">🚀 <strong>MLOps Frameworks:</strong> DVC, MLflow, Weights &amp; Biases</li>
-              <li style="margin-bottom: 8px;">🔥 <strong>Advanced DL:</strong> Transformers, Generative AI Models</li>
-              <li style="margin-bottom: 8px;">⚡ <strong>Performance Tuning:</strong> CUDA acceleration in PyTorch</li>
-              <li style="margin-bottom: 8px;">🤖 <strong>Edge Architectures:</strong> TensorRT deployment optimization</li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-    </td>
-    
-    <!-- 14. 2026 Goals Timeline -->
-    <td width="52%" valign="top" style="padding-left: 15px;">
-      <table width="100%" style="border: 1px solid rgba(0, 247, 255, 0.3); background: rgba(11, 9, 20, 0.85); border-radius: 8px; border-collapse: collapse;">
-        <tr>
-          <td style="padding: 20px; color: #e0e0ff; font-family: 'Courier New', monospace;">
-            <h4 style="font-family: 'Orbitron', sans-serif; color: #8A2BE2; letter-spacing: 1.5px; margin-top: 0; margin-bottom: 15px;">🎯 2026_GOALS_TIMELINE</h4>
-            <table width="100%" style="font-size: 13px; border-collapse: collapse;">
-              <tr>
-                <td width="10%" valign="top" style="color: #00F7FF; font-weight: bold; padding: 4px 0;">✔</td>
-                <td style="padding: 4px 0;">Learn Deep Learning Architecture</td>
-              </tr>
-              <tr>
-                <td width="10%" valign="top" style="color: #00F7FF; font-weight: bold; padding: 4px 0;">✔</td>
-                <td style="padding: 4px 0;">Master PyTorch Tensor Operations</td>
-              </tr>
-              <tr>
-                <td width="10%" valign="top" style="color: #8A2BE2; font-weight: bold; padding: 4px 0;">⬜</td>
-                <td style="padding: 4px 0;">Learn MLOps Production Cycles</td>
-              </tr>
-              <tr>
-                <td width="10%" valign="top" style="color: #8A2BE2; font-weight: bold; padding: 4px 0;">⬜</td>
-                <td style="padding: 4px 0;">Deploy Real-world AI Models to AWS</td>
-              </tr>
-              <tr>
-                <td width="10%" valign="top" style="color: #8A2BE2; font-weight: bold; padding: 4px 0;">⬜</td>
-                <td style="padding: 4px 0;">Contribute to Mainstream Open Source AI</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+<tr>
+<!-- 13. Current Learning section -->
+<td width="48%" valign="top" style="padding-right: 15px;">
+<table width="100%" style="border: 1px solid rgba(138, 43, 226, 0.3); background: rgba(11, 9, 20, 0.85); border-radius: 8px; border-collapse: collapse;">
+<tr>
+<td style="padding: 20px; color: #e0e0ff; font-family: 'Courier New', monospace;">
+<h4 style="font-family: 'Orbitron', sans-serif; color: #00F7FF; letter-spacing: 1.5px; margin-top: 0; margin-bottom: 15px;">🧠 CURRENT_LEARNING</h4>
+<ul style="list-style-type: none; padding-left: 0; margin: 0; font-size: 13px;">
+<li style="margin-bottom: 8px;">🚀 <strong>MLOps Frameworks:</strong> DVC, MLflow, Weights &amp; Biases</li>
+<li style="margin-bottom: 8px;">🔥 <strong>Advanced DL:</strong> Transformers, Generative AI Models</li>
+<li style="margin-bottom: 8px;">⚡ <strong>Performance Tuning:</strong> CUDA acceleration in PyTorch</li>
+<li style="margin-bottom: 8px;">🤖 <strong>Edge Architectures:</strong> TensorRT deployment optimization</li>
+</ul>
+</td>
+</tr>
+</table>
+</td>
+<!-- 14. 2026 Goals Timeline -->
+<td width="52%" valign="top" style="padding-left: 15px;">
+<table width="100%" style="border: 1px solid rgba(0, 247, 255, 0.3); background: rgba(11, 9, 20, 0.85); border-radius: 8px; border-collapse: collapse;">
+<tr>
+<td style="padding: 20px; color: #e0e0ff; font-family: 'Courier New', monospace;">
+<h4 style="font-family: 'Orbitron', sans-serif; color: #8A2BE2; letter-spacing: 1.5px; margin-top: 0; margin-bottom: 15px;">🎯 2026_GOALS_TIMELINE</h4>
+<table width="100%" style="font-size: 13px; border-collapse: collapse;">
+<tr>
+<td width="10%" valign="top" style="color: #00F7FF; font-weight: bold; padding: 4px 0;">✔</td>
+<td style="padding: 4px 0;">Learn Deep Learning Architecture</td>
+</tr>
+<tr>
+<td width="10%" valign="top" style="color: #00F7FF; font-weight: bold; padding: 4px 0;">✔</td>
+<td style="padding: 4px 0;">Master PyTorch Tensor Operations</td>
+</tr>
+<tr>
+<td width="10%" valign="top" style="color: #8A2BE2; font-weight: bold; padding: 4px 0;">⬜</td>
+<td style="padding: 4px 0;">Learn MLOps Production Cycles</td>
+</tr>
+<tr>
+<td width="10%" valign="top" style="color: #8A2BE2; font-weight: bold; padding: 4px 0;">⬜</td>
+<td style="padding: 4px 0;">Deploy Real-world AI Models to AWS</td>
+</tr>
+<tr>
+<td width="10%" valign="top" style="color: #8A2BE2; font-weight: bold; padding: 4px 0;">⬜</td>
+<td style="padding: 4px 0;">Contribute to Mainstream Open Source AI</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
 </table>
 
 <br />
