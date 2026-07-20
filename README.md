@@ -47,10 +47,10 @@
     <td style="padding: 25px; color: #e0e0ff; font-family: 'Courier New', monospace; line-height: 1.6;">
       <h3 align="center" style="font-family: 'Orbitron', sans-serif; color: #00F7FF; letter-spacing: 2px; margin-top: 0;">🧠 SYSTEM_IDENTITY // OVERVIEW</h3>
       <p style="font-size: 14px;">
-        Greetings, explorer. I am <strong>Pratyush Pratim Thakur</strong>, a passionate technologist operating at the intersection of machine intelligence, computational perception, and deep optimization architectures. 
+        Greetings, explorer. I am <strong>Pratyush Pratim Thakur</strong>, an AI/ML developer focused on computer vision, deep learning architectures, and scalable machine intelligence systems.
       </p>
       <p style="font-size: 14px;">
-        Currently pursuing a <strong>B.Tech in CSE (Artificial Intelligence &amp; Machine Learning)</strong>, my cognitive routines focus on crafting real-world AI engines, building high-throughput computer vision pipelines, and mastering end-to-end MLOps systems. My ultimate directive is to design algorithms that see, think, and scale.
+        Currently pursuing a <strong>B.Tech in CSE (Artificial Intelligence &amp; Machine Learning)</strong>, I build real-world computer vision pipelines, train deep learning networks, and construct MLOps frameworks to deploy models efficiently. My mission is to develop robust algorithms that can perceive, learn, and scale.
       </p>
       <hr style="border: 0; border-top: 1px solid rgba(0, 247, 255, 0.2); margin: 20px 0;" />
       <h4 style="font-family: 'Orbitron', sans-serif; color: #8A2BE2; letter-spacing: 1.5px; margin-bottom: 10px;">⚡ SYSTEM SPECIFICATIONS</h4>
