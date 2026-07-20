@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="neon-cyan-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F7FF" />
+      <stop offset="50%" stop-color="#8A2BE2" />
+      <stop offset="100%" stop-color="#FF007F" />
+    </linearGradient>
+    <linearGradient id="cyber-grid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#080710" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0f0c20" stop-opacity="1" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A2BE2" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#080710" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Filters for Neon Glow -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur1" />
+      <feGaussianBlur stdDeviation="15" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur2" />
+        <feMergeNode in="blur1" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="subtle-glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&amp;family=Share+Tech+Mono&amp;display=swap');
+    
+    .bg { fill: url(#cyber-grid); }
+    .glow-circle { fill: url(#glow); }
+    
+    .font-orbitron { font-family: 'Orbitron', 'Segoe UI', -apple-system, sans-serif; }
+    .font-mono { font-family: 'Share Tech Mono', 'Courier New', monospace; }
+    
+    /* Animations */
+    @keyframes pulse {
+      0%, 100% { opacity: 0.7; filter: drop-shadow(0 0 2px #00F7FF); }
+      50% { opacity: 1; filter: drop-shadow(0 0 8px #00F7FF); }
+    }
+    
+    @keyframes rotate-hud {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    @keyframes rotate-hud-ccw {
+      0% { transform: rotate(360deg); }
+      100% { transform: rotate(0deg); }
+    }
+    
+    @keyframes flicker {
+      0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+        opacity: 0.99;
+      }
+      20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+        opacity: 0.3;
+      }
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    
+    .pulse-effect { animation: pulse 3s infinite ease-in-out; }
+    .flicker-effect { animation: flicker 5s infinite; }
+    .float-effect { animation: float 6s infinite ease-in-out; }
+    
+    .hud-circle {
+      transform-origin: 120px 150px;
+      animation: rotate-hud 25s infinite linear;
+    }
+    .hud-circle-inner {
+      transform-origin: 120px 150px;
+      animation: rotate-hud-ccw 12s infinite linear;
+    }
+    
+    /* Tech Grid Overlay */
+    .grid-line {
+      stroke: #8A2BE2;
+      stroke-opacity: 0.12;
+      stroke-width: 1;
+    }
+    
+    .laser-line {
+      stroke: #00F7FF;
+      stroke-opacity: 0.5;
+      stroke-width: 1.5;
+      filter: url(#subtle-glow);
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="850" height="300" class="bg" />
+  
+  <!-- Glowing central background -->
+  <circle cx="425" cy="150" r="220" class="glow-circle" />
+  <circle cx="120" cy="150" r="100" class="glow-circle" />
+
+  <!-- Cyber Grid Lines -->
+  <g>
+    <!-- Vertical lines -->
+    <line x1="50" y1="0" x2="50" y2="300" class="grid-line" />
+    <line x1="150" y1="0" x2="150" y2="300" class="grid-line" />
+    <line x1="250" y1="0" x2="250" y2="300" class="grid-line" />
+    <line x1="350" y1="0" x2="350" y2="300" class="grid-line" />
+    <line x1="450" y1="0" x2="450" y2="300" class="grid-line" />
+    <line x1="550" y1="0" x2="550" y2="300" class="grid-line" />
+    <line x1="650" y1="0" x2="650" y2="300" class="grid-line" />
+    <line x1="750" y1="0" x2="750" y2="300" class="grid-line" />
+    <!-- Horizontal lines -->
+    <line x1="0" y1="50" x2="850" y2="50" class="grid-line" />
+    <line x1="0" y1="100" x2="850" y2="100" class="grid-line" />
+    <line x1="0" y1="150" x2="850" y2="150" class="grid-line" />
+    <line x1="0" y1="200" x2="850" y2="200" class="grid-line" />
+    <line x1="0" y1="250" x2="850" y2="250" class="grid-line" />
+  </g>
+
+  <!-- Futuristic Scanline Animation -->
+  <g style="overflow: hidden;">
+    <line x1="0" y1="150" x2="850" y2="150" class="laser-line">
+      <animate attributeName="y1" values="0;300;0" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="0;300;0" dur="8s" repeatCount="indefinite" />
+    </line>
+  </g>
+
+  <!-- HUD Interface Elements on Left -->
+  <g class="float-effect" style="transform-origin: 120px 150px;">
+    <!-- Outer dashed HUD circle -->
+    <circle cx="120" cy="150" r="70" fill="none" stroke="#8A2BE2" stroke-width="1.5" stroke-dasharray="10 15" class="hud-circle" />
+    <!-- Middle hex HUD structure or dashed -->
+    <circle cx="120" cy="150" r="55" fill="none" stroke="#00F7FF" stroke-width="1" stroke-dasharray="40 8 10 8" class="hud-circle-inner" />
+    <!-- Core element -->
+    <circle cx="120" cy="150" r="15" fill="#00F7FF" fill-opacity="0.2" stroke="#00F7FF" stroke-width="2" class="pulse-effect" />
+    <polygon points="120,140 128,154 112,154" fill="#00F7FF" class="flicker-effect" />
+    
+    <!-- Crosshairs -->
+    <line x1="40" y1="150" x2="60" y2="150" stroke="#00F7FF" stroke-width="1" stroke-opacity="0.8" />
+    <line x1="180" y1="150" x2="200" y2="150" stroke="#00F7FF" stroke-width="1" stroke-opacity="0.8" />
+    <line x1="120" y1="70" x2="120" y2="90" stroke="#00F7FF" stroke-width="1" stroke-opacity="0.8" />
+    <line x1="120" y1="210" x2="120" y2="230" stroke="#00F7FF" stroke-width="1" stroke-opacity="0.8" />
+  </g>
+
+  <!-- Technical brackets around content -->
+  <path d="M 290 40 L 250 40 L 250 260 L 290 260" fill="none" stroke="#00F7FF" stroke-width="2" stroke-opacity="0.7" />
+  <path d="M 800 40 L 840 40 L 840 260 L 800 260" fill="none" stroke="#00F7FF" stroke-width="2" stroke-opacity="0.7" />
+  <line x1="250" y1="150" x2="265" y2="150" stroke="#8A2BE2" stroke-width="2" />
+  <line x1="840" y1="150" x2="825" y2="150" stroke="#8A2BE2" stroke-width="2" />
+
+  <!-- Main Text Info -->
+  <g transform="translate(280, 0)">
+    <!-- Tiny system prefix -->
+    <text x="0" y="75" class="font-mono" fill="#00F7FF" font-size="12" letter-spacing="3" class="flicker-effect">
+      [ SYSTEM: INITIALIZING_ ]
+    </text>
+    
+    <!-- Full Name -->
+    <text x="0" y="125" class="font-orbitron" font-weight="900" font-size="34" fill="url(#neon-cyan-purple)" filter="url(#neon-glow)" letter-spacing="1">
+      PRATYUSH THAKUR
+    </text>
+    
+    <!-- Title / Subtitle -->
+    <text x="0" y="165" class="font-orbitron" font-weight="700" font-size="16" fill="#FFFFFF" letter-spacing="3">
+      A.I. / M.L. ENGINEER
+    </text>
+    
+    <!-- Decrypted info -->
+    <text x="0" y="200" class="font-mono" fill="#8A2BE2" font-size="13" letter-spacing="2">
+      &gt; COGNITIVE CORE: ONLINE
+    </text>
+    <text x="0" y="220" class="font-mono" fill="#00F7FF" font-size="13" letter-spacing="2">
+      &gt; DEEP_LEARNING_PIPELINE: ACTIVE
+    </text>
+    <text x="0" y="240" class="font-mono" fill="#FFFFFF" fill-opacity="0.5" font-size="11" letter-spacing="1">
+      LOC: LOCALHOST // SUB_SECTOR: B.TECH CSE (AI &amp; ML)
+    </text>
+  </g>
+
+  <!-- Interactive blinking status dot -->
+  <circle cx="810" cy="55" r="4" fill="#00F7FF" class="pulse-effect" />
+  <text x="800" y="58" text-anchor="end" class="font-mono" fill="#00F7FF" font-size="10" letter-spacing="1">SYS_OK</text>
+</svg>

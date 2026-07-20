@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bar-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8A2BE2" />
+      <stop offset="100%" stop-color="#00F7FF" />
+    </linearGradient>
+    <linearGradient id="bar-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" />
+      <stop offset="100%" stop-color="#8A2BE2" />
+    </linearGradient>
+    <filter id="neon-glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Share+Tech+Mono&amp;display=swap');
+    .bg { fill: #0b0914; rx: 10px; stroke: #8A2BE2; stroke-opacity: 0.3; stroke-width: 1.5; }
+    .label { font-family: 'Share Tech Mono', monospace; font-size: 13px; fill: #E0E0FF; letter-spacing: 1.5px; }
+    .value { font-family: 'Orbitron', 'Segoe UI', -apple-system, sans-serif; font-size: 12px; fill: #00F7FF; font-weight: bold; }
+    .title { font-family: 'Orbitron', 'Segoe UI', -apple-system, sans-serif; font-size: 16px; fill: #FFFFFF; font-weight: bold; letter-spacing: 3px; }
+    
+    @keyframes fill-bar-py { from { width: 0; } to { width: 475px; } }
+    @keyframes fill-bar-tf { from { width: 0; } to { width: 400px; } }
+    @keyframes fill-bar-cv { from { width: 0; } to { width: 450px; } }
+    @keyframes fill-bar-ml { from { width: 0; } to { width: 450px; } }
+    @keyframes fill-bar-dl { from { width: 0; } to { width: 375px; } }
+    
+    .bar-py { animation: fill-bar-py 2s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+    .bar-tf { animation: fill-bar-tf 2s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+    .bar-cv { animation: fill-bar-cv 2s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+    .bar-ml { animation: fill-bar-ml 2s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+    .bar-dl { animation: fill-bar-dl 2s cubic-bezier(0.1, 0.8, 0.2, 1) forwards; }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    .cursor { animation: blink 1s infinite; font-family: monospace; fill: #00F7FF; }
+  </style>
+
+  <!-- Panel Background -->
+  <rect width="850" height="300" class="bg" />
+
+  <!-- Technical Grid Background -->
+  <line x1="20" y1="50" x2="830" y2="50" stroke="#8A2BE2" stroke-opacity="0.2" stroke-width="1" />
+  <line x1="20" y1="260" x2="830" y2="260" stroke="#8A2BE2" stroke-opacity="0.2" stroke-width="1" />
+  <line x1="200" y1="50" x2="200" y2="260" stroke="#8A2BE2" stroke-opacity="0.1" stroke-width="1" />
+
+  <!-- Dashboard Header -->
+  <text x="30" y="32" class="title" filter="url(#neon-glow)">SYS.CORE_MATRIX // SKILLS_DIAGNOSTICS</text>
+  <circle cx="810" cy="27" r="5" fill="#8A2BE2" />
+  <circle cx="790" cy="27" r="5" fill="#00F7FF" />
+  
+  <!-- SKILL 1: Python -->
+  <g transform="translate(30, 70)">
+    <text x="0" y="15" class="label">PYTHON_CORE.DLL</text>
+    <!-- Bar Container -->
+    <rect x="220" y="2" width="500" height="15" fill="#141124" rx="3" stroke="#8A2BE2" stroke-opacity="0.2" />
+    <!-- Progress Bar -->
+    <rect x="220" y="2" width="0" height="15" fill="url(#bar-cyan)" rx="3" class="bar-py" filter="url(#neon-glow)" />
+    <!-- Percentage -->
+    <text x="740" y="14" class="value">95%</text>
+  </g>
+
+  <!-- SKILL 2: TensorFlow -->
+  <g transform="translate(30, 110)">
+    <text x="0" y="15" class="label">TENSORFLOW.SYS</text>
+    <!-- Bar Container -->
+    <rect x="220" y="2" width="500" height="15" fill="#141124" rx="3" stroke="#8A2BE2" stroke-opacity="0.2" />
+    <!-- Progress Bar -->
+    <rect x="220" y="2" width="0" height="15" fill="url(#bar-purple)" rx="3" class="bar-tf" filter="url(#neon-glow)" />
+    <!-- Percentage -->
+    <text x="740" y="14" class="value">80%</text>
+  </g>
+
+  <!-- SKILL 3: OpenCV -->
+  <g transform="translate(30, 150)">
+    <text x="0" y="15" class="label">OPENCV_VISION.DRV</text>
+    <!-- Bar Container -->
+    <rect x="220" y="2" width="500" height="15" fill="#141124" rx="3" stroke="#8A2BE2" stroke-opacity="0.2" />
+    <!-- Progress Bar -->
+    <rect x="220" y="2" width="0" height="15" fill="url(#bar-cyan)" rx="3" class="bar-cv" filter="url(#neon-glow)" />
+    <!-- Percentage -->
+    <text x="740" y="14" class="value">90%</text>
+  </g>
+
+  <!-- SKILL 4: Machine Learning -->
+  <g transform="translate(30, 190)">
+    <text x="0" y="15" class="label">NEURAL_NET_ML.DLL</text>
+    <!-- Bar Container -->
+    <rect x="220" y="2" width="500" height="15" fill="#141124" rx="3" stroke="#8A2BE2" stroke-opacity="0.2" />
+    <!-- Progress Bar -->
+    <rect x="220" y="2" width="0" height="15" fill="url(#bar-purple)" rx="3" class="bar-ml" filter="url(#neon-glow)" />
+    <!-- Percentage -->
+    <text x="740" y="14" class="value">90%</text>
+  </g>
+
+  <!-- SKILL 5: Deep Learning -->
+  <g transform="translate(30, 230)">
+    <text x="0" y="15" class="label">DEEP_LEARNING.CORE</text>
+    <!-- Bar Container -->
+    <rect x="220" y="2" width="500" height="15" fill="#141124" rx="3" stroke="#8A2BE2" stroke-opacity="0.2" />
+    <!-- Progress Bar -->
+    <rect x="220" y="2" width="0" height="15" fill="url(#bar-cyan)" rx="3" class="bar-dl" filter="url(#neon-glow)" />
+    <!-- Percentage -->
+    <text x="740" y="14" class="value">75%</text>
+  </g>
+
+  <!-- Console Footer -->
+  <text x="30" y="282" class="label" font-size="11" fill-opacity="0.6">&gt; COGNITIVE MATRIX CALIBRATION COMPLETE. ALL MODULES OPERATING IN OPTIMAL STATE.</text>
+  <text x="730" y="282" class="label" font-size="11" fill="#00F7FF">SYS_STABLE<tspan class="cursor">_</tspan></text>
+</svg>
