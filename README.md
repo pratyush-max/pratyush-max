@@ -159,8 +159,11 @@
   </p>
 
   <p align="center">
-    <a href="https://github.com/pratyush-max/computer-vision-projects">
-      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project5.svg?v=1" alt="Computer Vision Projects" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+    <a href="https://github.com/pratyush-max/ai-pick-and-place-robot">
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project5.svg?v=1" alt="AI Pick and Place Robot" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+    </a>
+    <a href="https://github.com/pratyush-max/KRMU-AI-CHAT-ASSISTANT">
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project6.svg?v=1" alt="KRMU AI Chat Assistant" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
     </a>
   </p>
 
@@ -198,10 +201,15 @@
           <td style="padding: 10px;">K-Means clustering, DBSCAN algorithms, and t-SNE dimensionality reduction for data segmentation.</td>
           <td style="padding: 10px; color: #8A2BE2;">0.74 Silhouette Score</td>
         </tr>
+        <tr style="border-bottom: 1px solid rgba(0,247,255,0.1);">
+          <td style="padding: 10px;"><strong>05 // ROBOTIC_ARM_AI</strong></td>
+          <td style="padding: 10px;">Computer Vision detection of objects with coordinate maps coupled to robotic arm actuators.</td>
+          <td style="padding: 10px; color: #00F7FF;">Real-time Kinematics</td>
+        </tr>
         <tr>
-          <td style="padding: 10px;"><strong>05 // VISION_CORE</strong></td>
-          <td style="padding: 10px;">Facial keypoint locators, customized edge segmentation filters, and real-time vision loops.</td>
-          <td style="padding: 10px; color: #00F7FF;">30 FPS Edge Run</td>
+          <td style="padding: 10px;"><strong>06 // KRMU_AI_AGENT</strong></td>
+          <td style="padding: 10px;">Enterprise RAG pipeline, Groq Llama-3.3 LLM, vector semantic search, next.js UI, ElevenLabs TTS.</td>
+          <td style="padding: 10px; color: #8A2BE2;">50ms RAG Latency</td>
         </tr>
       </tbody>
     </table>
