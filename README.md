@@ -167,6 +167,15 @@
     </a>
   </p>
 
+  <p align="center">
+    <a href="https://github.com/pratyush-max/online-shoppers-prediction">
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project7.svg?v=1" alt="Online Shoppers Prediction" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+    </a>
+    <a href="https://github.com/pratyush-max/urban-fork">
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project8.svg?v=1" alt="Urban Fork Fine Dining" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+    </a>
+  </p>
+
   <br />
 
   <details>
@@ -206,10 +215,20 @@
           <td style="padding: 10px;">Computer Vision detection of objects with coordinate maps coupled to robotic arm actuators.</td>
           <td style="padding: 10px; color: #00F7FF;">Real-time Kinematics</td>
         </tr>
-        <tr>
+        <tr style="border-bottom: 1px solid rgba(0,247,255,0.1);">
           <td style="padding: 10px;"><strong>06 // KRMU_AI_AGENT</strong></td>
           <td style="padding: 10px;">Enterprise RAG pipeline, Groq Llama-3.3 LLM, vector semantic search, next.js UI, ElevenLabs TTS.</td>
           <td style="padding: 10px; color: #8A2BE2;">50ms RAG Latency</td>
+        </tr>
+        <tr style="border-bottom: 1px solid rgba(0,247,255,0.1);">
+          <td style="padding: 10px;"><strong>07 // SHOPPER_PREDICT</strong></td>
+          <td style="padding: 10px;">Random Forest and XGBoost classifiers predicting online shopper session purchase intent.</td>
+          <td style="padding: 10px; color: #00F7FF;">89.2% Accuracy</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><strong>08 // URBAN_FORK</strong></td>
+          <td style="padding: 10px;">Immersive luxury fine dining web portal with Lenis scroll, GSAP orchestration, and NextJS 16.</td>
+          <td style="padding: 10px; color: #8A2BE2;">60fps+ Smooth Scroll</td>
         </tr>
       </tbody>
     </table>
