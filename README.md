@@ -176,6 +176,12 @@
     </a>
   </p>
 
+  <p align="center">
+    <a href="https://github.com/pratyush-max/ShopPulse-Olist-Ecommerce-Intelligence">
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project9.svg?v=1" alt="ShopPulse Olist E-Commerce Intelligence" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+    </a>
+  </p>
+
   <br />
 
   <details>
@@ -225,10 +231,15 @@
           <td style="padding: 10px;">Random Forest and XGBoost classifiers predicting online shopper session purchase intent.</td>
           <td style="padding: 10px; color: #00F7FF;">89.2% Accuracy</td>
         </tr>
-        <tr>
+        <tr style="border-bottom: 1px solid rgba(0,247,255,0.1);">
           <td style="padding: 10px;"><strong>08 // URBAN_FORK</strong></td>
           <td style="padding: 10px;">Immersive luxury fine dining web portal with Lenis scroll, GSAP orchestration, and NextJS 16.</td>
           <td style="padding: 10px; color: #8A2BE2;">60fps+ Smooth Scroll</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><strong>09 // SHOPPULSE_DE</strong></td>
+          <td style="padding: 10px;">Medallion Lakehouse (Bronze/Silver/Gold Delta) on Databricks with holiday REST API and 4-page Power BI dashboard.</td>
+          <td style="padding: 10px; color: #00F7FF;">93.13% On-Time / R$ 15.84M GMV</td>
         </tr>
       </tbody>
     </table>
