@@ -180,6 +180,15 @@
     <a href="https://github.com/pratyush-max/ShopPulse-Olist-Ecommerce-Intelligence">
       <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project9.svg?v=1" alt="ShopPulse Olist E-Commerce Intelligence" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
     </a>
+    <a href="https://github.com/pratyush-max/NLP_DARK_PATTERN_DETECTOR">
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project10.svg?v=1" alt="DarkPattern Detector India" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+    </a>
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/pratyush-max/NLP_MEDLABEL_NTF">
+      <img src="https://raw.githubusercontent.com/pratyush-max/pratyush-max/main/assets/project11.svg?v=1" alt="MedLabel-NER India" width="410" style="max-width: 48%; border-radius: 8px; margin: 5px;" />
+    </a>
   </p>
 
   <br />
@@ -236,10 +245,20 @@
           <td style="padding: 10px;">Immersive luxury fine dining web portal with Lenis scroll, GSAP orchestration, and NextJS 16.</td>
           <td style="padding: 10px; color: #8A2BE2;">60fps+ Smooth Scroll</td>
         </tr>
-        <tr>
+        <tr style="border-bottom: 1px solid rgba(0,247,255,0.1);">
           <td style="padding: 10px;"><strong>09 // SHOPPULSE_DE</strong></td>
           <td style="padding: 10px;">Medallion Lakehouse (Bronze/Silver/Gold Delta) on Databricks with holiday REST API and 4-page Power BI dashboard.</td>
           <td style="padding: 10px; color: #00F7FF;">93.13% On-Time / R$ 15.84M GMV</td>
+        </tr>
+        <tr style="border-bottom: 1px solid rgba(0,247,255,0.1);">
+          <td style="padding: 10px;"><strong>10 // DARK_PATTERN_AI</strong></td>
+          <td style="padding: 10px;">Two-stage DistilBERT + TF-IDF dark-pattern detector mapped to India's CCPA 2023 guidelines with leakage-controlled splits.</td>
+          <td style="padding: 10px; color: #8A2BE2;">0.891 LogReg / 0.833 DistilBERT F1</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><strong>11 // MEDLABEL_NER</strong></td>
+          <td style="padding: 10px;">Non-Transformer Char-CNN + FastText + BiLSTM-CRF medicine NER, 249k-brand normaliser, and duplicate-ingredient alerts.</td>
+          <td style="padding: 10px; color: #00F7FF;">0.892 Challenge F1 / 10/10 Alerts</td>
         </tr>
       </tbody>
     </table>
